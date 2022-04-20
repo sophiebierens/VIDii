@@ -33,7 +33,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
+  - Ik zou graag coderen in het algemeen willen snappen en hier ook mee kunnen werken. Voor mij is het nog nieuw, dus als ik iets moois in elkaar kan zetten qua webpagina met CSS en HTML zou ik al heel erg tevreden zijn. 
   - punt 2
   - nog een punt
   - ...
