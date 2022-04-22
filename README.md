@@ -161,8 +161,10 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+https://mario.fandom.com/nl/wiki/Brick_Block
+https://www.symbolsofit.com/nl/arrow/
+https://www.nintendo.nl/Nintendo-Switch-familie/Specificaties/Specificaties-1176277.html#1
+https://fantendo.fandom.com/wiki/%3F_Block
+
 
 </details>
