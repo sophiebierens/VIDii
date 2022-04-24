@@ -34,9 +34,9 @@ Mijn startniveau is: Blauw
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
   - Ik zou graag coderen in het algemeen willen snappen en hier ook mee kunnen werken. Voor mij is het nog nieuw, dus als ik iets moois in elkaar kan zetten qua webpagina met CSS en HTML zou ik al heel erg tevreden zijn. 
-  - Leren hoe ik aan 
-  - nog een punt
-  - ...
+  - Leren hoe ik animaties kan toepasssen in een design.  
+  - Leren hoe ik een adaptive design kan maken. 
+  - Leren hoe ik vormen/elementen kan maken met CSS/HTML. 
  
 </details>
 
