@@ -46,26 +46,55 @@ Mijn startniveau is: Blauw
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Schetsen</summary>
+  Ik ben begonnen met 5 schetsen maken. elk van deze schetsen had nog zijn gebrekken en daar ga ik hier op inhaken. Ik heb aan Amber Bellaart gevraagd of zij feedback wilde geven op elk van de schetsen. Aan de hand daarvan heb ik aanpassingen gedaan. 
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heeft meerdere witte stippen. Ik wilde in dit concept deze stippen kleiner maken en gebruik maken van deze stippen om hier in elk van een stip een afbeelding van Mario te verstoppen uit verschillende tijden. Toch was deze schets nog helemaal niet af en zat ik nog erg met hoe ik hier interactie in ging brengen.
+  <img src="readme-images/schetsmushroom.png" width="375px" alt="mushroom schets">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Amber gaf als feedback dat hier inderdaad weinig interactiefs mee kon gebeuren. Als ik hier meer interactie in zou willen brengen zou ik in de bolletjes een filmpje kunnen laten afspelen of dat de bolletjes groter werden of zouden bewegen. Ook zou ik de oogjes kunnen laten knipperen.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).sdf 
 
+  <img src="readme-images/schetsblokken.png" width="375px" alt="blokken schets">
+  
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
 
 
   ### Bevinding 3:
-  ...
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  
+<img src="readme-images/schetstoren.png" width="375px" alt="toren schets">
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  
+  ### Bevinding 4:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  
+  <img src="readme-images/Schetsnknopspel.png" width="375px" alt="spel met knoppen schets">
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  
+  ### Bevinding 5:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  
+  <img src="readme-images/schetsspel.png" width="375px" alt="spel schets">
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+
+
 
 </details>
 
