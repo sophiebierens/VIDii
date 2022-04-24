@@ -34,7 +34,7 @@ Mijn startniveau is: Blauw
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
   - Ik zou graag coderen in het algemeen willen snappen en hier ook mee kunnen werken. Voor mij is het nog nieuw, dus als ik iets moois in elkaar kan zetten qua webpagina met CSS en HTML zou ik al heel erg tevreden zijn. 
-  - punt 2
+  - Leren hoe ik aan 
   - nog een punt
   - ...
  
@@ -59,22 +59,22 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).sdf 
+  Deze schets was ook nog erg oppervlakkig. Mijn idee was om in de blokjes afbeeldingen of bewegende animaties van mario te stoppen van elk jaartal. Hoe hoger je komt hoe verder je in de tijd gaat naar het nu.  
 
-  <img src="readme-images/schetsblokken.png" width="375px" alt="blokken schets">
+ <img src="readme-images/schetstoren.png" width="375px" alt="toren schets">  
   
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Amber kwam met het idee om een mario te maken die elke keer een trede omhoog gaat en dan veranderd van design. (tekst en afbeeding(en)).
 
 
 
   ### Bevinding 3:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Bij deze schets had ik bedacht om één design te maken waarin de blokjes, net als bij het Mushroom design, veranderen wanneer je eroverheen hovert of op klikt. Toch zullen de blokjes wel erg klein zijn en dit kan het onduidelijk maken wat er gebeurt op de pagina. (tekst en afbeeding(en)).
   
-<img src="readme-images/schetstoren.png" width="375px" alt="toren schets">
+<img src="readme-images/schetsblokken.png" width="375px" alt="blokken schets">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Samen met Amber kwam ik met de oplossing om een inzoom effect te creeëren wanneer je eroverheen hovert. Dit voorkomt dat het niet leesbaar is. Ook kwam Amber met het idee om in plaats van elk blokje een design in te maken, iets met een klik animatie te doen waardoor de mario veranderd. Zo hoef je niet de blokjes één voor één te lezen. (tekst en afbeeding(en)).
   
   
   ### Bevinding 4:
