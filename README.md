@@ -111,7 +111,7 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
   <img src="readme-images/feedback_rowin_1A.jpeg" height="375px" alt="eerste checklist formulier"> <img src="readme-images/feedback_rowin_1B.jpeg" height="375px" alt="eerste checklist formulier">
   
   ### Bevinding 1:
-  Rowin kwam met het punt dat ik nog tekst en een H1 miste. Op het beoordelingsformulier staat dat ik verplicht een H1 en p moet toevoegen. Dit had ik op dit moemnt nog niet gedaan. 
+  Rowin kwam met het punt dat ik nog tekst en een H1 miste. Op het beoordelingsformulier staat dat ik verplicht een H1 en p moet toevoegen. Dit had ik op dit moment nog niet gedaan. 
 
   #### oplossing:
   Ik had dit nog niet toegevoegd omdat ik nog niet precies wist waar ik dit moest toevoegen. Rowin kwam met het idee om het eronder toe te voegen. Ik heb dit nu uiteindelijk opgelost door een quote toe te voegen als H1 en de tekst eronder geeft kort weer wat er te zien en doen is op de website. 
@@ -119,7 +119,7 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
 
 
   ### Bevinding 2:
-  Rowin gaf aan dat er nog te weinig commentaar staat in mijn code. Hierdoor is het niet heel duidelijk voor iemand die de website niet kent. 
+  Rowin gaf aan dat er nog te weinig commentaar staat in mijn code. Hierdoor is het niet heel duidelijk voor iemand die de website niet kent. Ook voor jezelf kan dit fijn zijn zodat direct ergens naar kan zoeken kan bijhouden waar wat staat. 
 
   #### oplossing:
   Ik heb dit opgelost door grote koppen te maken bij grote onderdelen, zoals bijvoorbeeld de jaartallen. En kleine kopjes te maken bij onderdelen die daaronder vallen. Ook heb ik in mijn code erbij gezet of ik hulp heb gehad, en van wie, en waar ik het echt volledig zelf heb gemaakt. 
