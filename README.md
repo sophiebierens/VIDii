@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Sophie Bierens
 
 #### Je startniveau:
-Mijn startniveau is: Blauw 
+Mijn startniveau is: (Baby)blauw 
 
 
 
