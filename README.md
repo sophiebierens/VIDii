@@ -192,15 +192,15 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Ik heb heel veel geleerd de afgelopen tijd. Ik had in het begin niet verwacht dat ik dit zou kunnen neerzetten. Ik heb veel video's gekeken online, oefeningen gedaan, en hulp gehad van mijn medestudenten en docent Sanne. De animaties maken vond ik het leukste van wat ik heb geleerd. Dit ging naar mijn mening ook het beste. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/kijkgeschiedenis.png" width="375px" alt="kijkgeschiedenis">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Ik vond het in het begin lastig om een idee te ontwerpen met in mijn achterhoofd ook de blokkade dat ik dit misschien niet zou kunnen uitwerken in HTML en CSS. Ook vond ik het lastig dat ik nog nooit eerder iets met code had gedaan en daardoor veel dingen niet snapte. Mijn eerste idee was om met de knoppen een game te maken waar je doorheen kon klikken. Dit heb ik uiteindelijk niet uitgewerkt omdat dit veel met JavaScript uitgewerkt moest worden. Ondanks dat ik dit ontwerp niet gekozen heb uiteindelijk, ben ik wel heel tevreden met hoe het nu uitgepakt is. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/schets_sanne.jpg" width="375px" alt="schets van sanne">
 </details>
 
 
