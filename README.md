@@ -199,6 +199,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
   7. https://www.deviantart.com/shinespritegamer/art/Mario-Logo-803212307 
   8. https://super-mario-maker-2-wiki.fandom.com/wiki/Pipe 
   9. https://www.pinpng.com/picture/hJhooRo_super-mario-wiki-super-mario-spike-balls-hd/ 
+  10. https://pngrow.com/super-mario-bros-8-bit-cloud-png_3441 
   
 
 </details>
