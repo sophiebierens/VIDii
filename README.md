@@ -142,10 +142,10 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
   
   
   ### Bevinding 5:
-  Rowin gaf aan dat ik nog geen CSS costum properties had. Ik had alle kleuren met een losse kleurcode aangegeven waardoor het wat onoverzichtelijk was.
+  Rowin gaf aan dat ik nog geen CSS custom properties had. Ik had alle kleuren met een losse kleurcode aangegeven waardoor het wat onoverzichtelijk was.
   
   #### oplossing:
-  BDit heb ik opgelost door voor 
+  Dit heb ik opgelost door voor elke kleur een variabele aan te maken. Hierdoor ben ik ervan verzekerd dat ik altijd de goede kleuren aanhoudt en dat als ik iets wil veranderen in de kleuren het direct over de gehele pagina veranderd. Ook maakt dit het overzichtelijker voor iemand die de code leest. 
 
   
   
