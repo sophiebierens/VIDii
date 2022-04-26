@@ -1,10 +1,10 @@
 // JavaScript Document
+
+// hulp gehad van Timo en Sanne
 console.log("Howdy!");
 var mario2006 = document.querySelector('.mario2006');
 var munt = document.querySelector('.munt');
 var A = document.querySelector('.A');
-var links = document.querySelector('.links');
-var rechts = document.querySelector('.rechts');
 
 A.addEventListener("click", mariospringt);
 

@@ -3,44 +3,55 @@
   box-sizing:border-box;  
 }
 
+@font-face {
+  font-family: marioletters;
+  src: url("../fonts/mariolettertype.woff") format('woff');
+}
+
+/* kleuren */
 :root {
+  --kleur-geel: #f1c500;
   --kleur-rood: #ED5F53;
   --kleur-blauw: #54C4E3;
+  --kleur-zwart: #000;
+  --kleur-wit: #fff;
   --vulling-buttons: #454545;
   --lijnen-buttons: #222;
   --schaduw-donker: #22222222;
   --schaduw-licht: #ffffff70;
   --schaduw-D-button: #222222cc;
   --schaduw-L-button: #ffffff40;
-  --kleur-zwart: #000;
-
+  --info-knop: #44AF35; 
+  --info-knop-bezocht: #DE1400; 
+  --info-knop-actief: #00A6EA; 
+  
 }
-
 
 html {
   height:100%;
   margin:0;
-  background-color: #fff;
+  background-color: var(--kleur-geel);
   display: grid;
   place-items: center center;
 }
 
-
-/* jouw CSS vanaf hier */
-
 h1 {
-  color:crimson;
-  align-items: baseline;
+  font-family: marioletters;
+  text-align: center;
 }
 
+.mariologo {
+  height: 2em;
+  width: 6em;
+}
 
-/* .rechthoek {
-  height: 20em;
-  width: 35em;
-  background-image: url(/images/achtergrondinzoom.png);
-  background-size: cover;
-} */
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+} 
 
+/* hulp gehad bij het vormen van de nintendo switch van Timo, zoals de flex van de elementen, vormgeving zelf gedaan */
+/* achterkant */
 article {
   width: 47.8em;
   height: 20.4em;
@@ -51,6 +62,7 @@ article {
               inset 0em 0.2em 0.05em var(--schaduw-L-button);
 }
 
+/* controler links */
 .linksblauw {
   background-color: var(--kleur-blauw);
   flex:0.17;
@@ -60,6 +72,7 @@ article {
   position: relative;
 }
 
+/* controler rechts */
 .rechtsrood {
   background-color: var(--kleur-rood);
   flex:0.17;
@@ -69,6 +82,7 @@ article {
               inset 0em 0.2em 0.05em var(--schaduw-licht);
 }
 
+/* buttons links */
 .pijltjes button {
   position: absolute;
   width: 2em;
@@ -76,7 +90,7 @@ article {
   border-radius: 50%;
   text-align: center;
   background-color: var(--vulling-buttons);
-  border: solid 0.1em #000; 
+  border: solid 0.1em var(--kleur-zwart); 
   box-shadow: inset .1em -.1em 0.05em var(--schaduw-D-button),
               inset -.1em .1em 0.05em var(--schaduw-L-button);
 }
@@ -123,13 +137,14 @@ article {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   border: .15em solid var(--lijnen-buttons);
-  box-shadow: inset -.05em .05em 0.05em #222222bb,
-              inset .05em -.05em 0.05em #ffffff20,
+  box-shadow: inset -.05em .05em 0.05em var(--schaduw-D-button),
+              inset .05em -.05em 0.05em var(--schaduw-L-button),
                    -.05em .05em 0.05em var(--schaduw-D-button),
-                    .05em -.1em 0.05em #ffffff10;
+                    .05em -.1em 0.05em var(--schaduw-donker);
+                    
 }
 
-
+/* buttons rechts */
 .letters button {
   position: absolute;
   width: 2em;
@@ -151,7 +166,15 @@ article {
   top: 25%;
   left: 60%;
   cursor:pointer;
+
+  transition:background-color .2s 1s;
 }
+
+.letters .A:active {
+  background-color: var(--lijnen-buttons);
+  transition:background-color 0s;
+}
+
 
 .letters .B {
   top: 25%;
@@ -185,28 +208,239 @@ article {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   border: .15em solid var(--lijnen-buttons);
-  box-shadow: inset -.05em .05em 0.05em #222222bb,
-              inset .05em -.05em 0.05em #ffffff20,
+  box-shadow: inset -.05em .05em 0.05em var(--schaduw-D-button),
+              inset .05em -.05em 0.05em var(--schaduw-L-button),
                    -.05em .05em 0.05em var(--schaduw-D-button),
-                    .05em -.1em 0.05em #ffffff10;
+                    .05em -.1em 0.05em var(--schaduw-donker);
 }
 
-/* 2006 */
+
+
+
+
+/* hulp gehad van Sanne voor het maken van de ol list */
+/* ********** */
+/* DE LIJST  */
+/* ********** */
+
+ol {
+  margin: 1em;
+  padding:0;
+  flex:0.7;
+  list-style-type: none;
+
+  overflow:scroll;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;   
+}
+
+ol::-webkit-scrollbar {
+  display: none;
+}
+li {
+  height:100%;
+  width: 100%;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+
+
+
+
+
+
+/* alles zelf aangepakt */
+/* ********* */
+/*** 1985  ***/
+/* ********* */
+
+
+.scherm2 {
+  height:100%;
+  background-color: var(--kleur-zwart);
+  border: var(--kleur-zwart) solid 1em;
+  border-radius: 1em;
+  border-style: solid;
+  background-image: url(/images/achtergrond1985.png);
+  background-size: cover;
+  position: relative;
+  display: block;
+}
+
+/* goomba animatie */
+.goomba1985 {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 75%;
+  left: -1.5%;
+  animation-name: goomba1985;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes goomba1985 {
+0% {
+transform: translateX(10.5em);
+  }
+50% {
+  transform: translateX(24.5em);
+  }
+100% {
+  transform: translateX(10.5em);
+  }
+}
+
+/* mario animatie */
+.mario1985 {
+  width: 1.5em;
+  height: 1.7em;
+  position: absolute;
+  top: 73.5%;
+  left: 1.5%;
+  animation-name: mario1985;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes mario1985 {
+  0% {
+  transform: translateY(0) translateX(7.5em);
+  }
+  25% {
+  transform: translateY(-2.7em) translateX(7.5em);
+  }
+  30% {
+  transform: translateY(-2.7em) translateX(7.5em);  
+  }
+ 40% {
+  transform: translateY(-2.7em) translateX(10em); 
+  }
+  45% {
+  transform: translateY(0em) translateX(10em);   
+  }
+  67% {
+  transform: translateY(0) translateX(15em);
+  }
+  75% {
+  transform: translateY(-2em) translateX(17em);
+  }
+  80% {
+    transform: translateY(0) translateX(18em);
+  }
+  100% {
+  transform: translateY(0em) translateX(26em);
+  }
+}
+
+/* buizen */
+.buis {
+  width: 2.7em;
+  height: 2.7em;
+  position: absolute;
+  top: 67.5%;
+  left: 25%;
+}
+
+.buis2 {
+  width: 2.7em;
+  height: 2.7em;
+  position: absolute;
+  top: 68%;
+  right: 0%; 
+}
+
+/* wolkje hover animatie */
+.wolkje {
+  width: 3em;
+  height: 2.5em;
+  position: absolute;
+  top: 20%;
+  right: 30%;
+}
+
+.wolkje:hover {
+  animation-name: inzoom2006;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes wolkje {
+  0% {
+transform: scale(1);
+  }
+  100% {
+transform: scale(2);
+  }
+}
+
+
+/* infoknop */
+.infoknop1:link {
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: var(--kleur-zwart);
+  background-color: var(--info-knop);
+  color: var(--kleur-wit);
+  text-align: center;
+  font-family: marioletters;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+}
+
+.infoknop1:visited {
+  background-color: var(--info-knop-bezocht);
+  color: var(--kleur-wit);
+  border-color: var(--kleur-zwart);
+}
+
+.infoknop1:visited:hover {
+  background-color: var(--kleur-wit);
+  color: var(--info-knop-bezocht);
+  border-color: var(--kleur-zwart);  
+}
+
+.infoknop1:hover {
+  background-color: var(--kleur-wit);
+  color: var(--info-knop);
+  border-color: var(--kleur-zwart);  
+}
+
+.infoknop1:active {
+  background-color: var(--info-knop-actief);
+  color: var(--kleur-wit);
+  border-color: var(--kleur-zwart);  
+}
+
+
+/* ********* */
+/*** 2006  ***/
+/* ********* */
 
 .scherm1 {
+  height:100%;
   background-color: var(--kleur-zwart);
-  flex:0.7;
   border: var(--kleur-zwart) solid 1em;
-  margin: 1em;
   border-radius: 1em;
   border-style: solid;
   background-image: url(/images/achtergrond2006.png);
   background-size: cover;
   position: relative;
   display: block;
-  list-style-type: none;
   }
 
+/* blok jaartal hover animatie*/
 .blok2006 {
   width: 1.5em;
   height: 1.5em;
@@ -230,6 +464,7 @@ transform: scale(3);
   }
 }
 
+/* mushroom animatie */
 .mushroom {
   width: 1.5em;
   height: 1.5em;
@@ -253,7 +488,7 @@ transform: translateX(1em);
   transform: translateX(1em);
   }
 }
-
+/* blok met muntje animatie */
 .blokvraagteken {
   width: 1.5em;
   height: 1.5em;
@@ -299,6 +534,7 @@ transform: translateX(1em);
   }
 }
 
+/* mario springt animatie */
 .mario2006 {
   width: 2em;
   height: 2.6em;
@@ -334,6 +570,7 @@ transform: translateX(1em);
   }
 }
 
+/* overige blok elementen */
 .steen2006A {
   width: 1.5em;
   height: 1.5em;
@@ -349,6 +586,8 @@ transform: translateX(1em);
   top: 57.5%;
   left: 34.9%; 
 }
+
+/* munten animatie */
 .muntR1 {
   width: 0.7em;
   height: 1em;
@@ -393,18 +632,341 @@ transform: translateX(1em);
     }
 }
 
-/* 1985 */
+/* infoknop */
+.infoknop2:link {
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: var(--kleur-zwart);
+  background-color: var(--info-knop);
+  color: var(--kleur-wit);
+  text-align: center;
+  font-family: marioletters;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+}
 
-.scherm2 {
+.infoknop2:visited {
+  background-color: var(--info-knop-bezocht);
+  color: var(--kleur-wit);
+  border-color: var(--kleur-zwart);
+}
+
+.infoknop2:visited:hover {
+  background-color: var(--kleur-wit);
+  color: var(--info-knop-bezocht);
+  border-color: var(--kleur-zwart);  
+}
+
+.infoknop2:hover {
+  background-color: var(--kleur-wit);
+  color: var(--info-knop);
+  border-color: var(--kleur-zwart);  
+}
+
+.infoknop2:active {
+  background-color: var(--info-knop-actief);
+  color: var(--kleur-wit);
+  border-color: var(--kleur-zwart);  
+}
+
+
+
+
+
+
+
+
+
+
+/* ********* */
+/*** 2010  ***/
+/* ********* */
+
+.scherm3 {
+  height:100%;
   background-color: var(--kleur-zwart);
-  flex:0.7;
   border: var(--kleur-zwart) solid 1em;
-  margin: 1em;
   border-radius: 1em;
   border-style: solid;
-  background-image: url(/images/achtegrond1985.png);
+  background-image: url(/images/achtergrond2010.png);
   background-size: cover;
   position: relative;
-  display: none;
-  list-style-type: none;
+  display: block;
+}
+
+/* animatie wolkmannetje gooit bal */
+.wolkmannetje {
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  top: 13%;
+  animation-name: wolkmannetje;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out; 
+}
+
+@keyframes wolkmannetje {
+  0% {
+  transform: translateX(16em);
+    }
+  50% {
+    transform: translateX(23em);
+    }
+  100% {
+    transform: translateX(16em);
+    }
+  }
+
+.rodebal1 {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  top: 14%;
+  animation-name: rodebal1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out; 
+}
+  
+@keyframes rodebal1 {
+  0% {
+  transform: translateX(16em) translateY(0);
+    }
+  25% {
+  transform: translateX(23em) translateY(0);
+    }
+  50% {
+  transform: translateX(16em) translateY(0);
+    }
+  60% {
+  transform: translateX(13em) translateY(11em);
+   }
+  75% {
+  transform: translateX(12.7em) translateY(10.8em);
+  opacity: 1;
+    }
+  90% {
+  transform: translateX(12.7em) translateY(11em);
+  opacity: 1;
+    }
+  93% {
+  transform: translateX(12.7em) translateY(11em);
+  opacity: 1;
+    }
+  94% {
+  transform: translateX(12.7em) translateY(11em);
+  opacity: 0;
+    }
+  100% {
+  transform: translateX(12.7em) translateY(11em);
+  opacity: 0;
+    }
+  }
+
+/* mario vliegt */
+.mario2010 {
+  width: 1.8em;
+  height: 3em;
+  position: absolute;
+  top: 70%;
+  left: 10%; 
+  animation-name: mario2010;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in; 
+  animation-delay: 2s;
+}
+
+@keyframes mario2010 {
+  0% {
+  transform: translateX(0) translateY(0);
+  }
+  60% {
+  transform: translateX(1em) translateY(-7em);
+  }
+  100% {
+  transform: translateX(0) translateY(0);
+  }
+}
+
+.propeller {
+  width: 1.8em;
+  height: 0.9em;
+  position: absolute;
+  top: 69.5%;
+  left: 9.6%; 
+  animation-name: propeller;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in; 
+  animation-delay: 2s;
+}
+
+@keyframes propeller {
+  0% {
+  transform: translateX(0) translateY(0) rotateY(0);
+  }
+  60% {
+  transform: translateX(1em) translateY(-7em) rotateY(4000deg);
+  }
+  100% {
+  transform: translateX(0) translateY(0) rotateY(0deg);
+  }
+}
+
+
+/* animatie vlieghoofd */
+.vlieghoofd {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 30%;
+  left: 69%; 
+  animation-name: vlieghoofd;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;  
+  }
+
+@keyframes vlieghoofd {
+  0% {
+  transform: translateY(4em);
+  }
+  50% {
+  transform: translateY(5em);
+  }
+  100% {
+  transform: translateY(4em);
+  }
+}
+
+/* uit voorbeeld gekeken van Sanne */
+/* hover animatie bloem */
+.bloem {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  top: 56.7%;
+  right: 9.3%;
+  animation-duration: 4s;
+  transform-origin:center bottom;
+}
+
+@keyframes bloem {
+  0%, 20% {
+    transform:none;
+  }
+  27% {
+    transform:scale(1.2, .8); 
+  }
+  34% {
+    transform:scale(.9, 1.1); 
+  }
+  38% {
+    transform:scale(1.35, .65);
+    animation-timing-function:cubic-bezier(0.165, 0.840, 0.440, 1.000);
+  }
+  50% {
+    transform:translatey(-3em)  scale(.67, 1.5); 
+    animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+  }
+  62% {
+    transform:scale(2, .25); 
+  }
+  68% {
+    transform:scale(.8, 1.2); 
+  }
+  72% {
+    transform:scale(1.1, .9); 
+  }
+  75% {
+    transform:scale(.95, 1.05); 
+  }
+  78% {
+    transform:scale(1.02, .98); 
+  }
+  80%, 100% {
+    transform:none;
+  }
+}
+
+.bloem:hover {
+  animation-name:bloem;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+}
+
+/* stermunt 2010 */
+.stermunt {
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+  top: 12%;
+  left: 25%;
+}
+
+.stermunt:hover {
+  animation-name: stermunt;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes stermunt {
+  0% {
+transform: scale(1);
+  }
+  100% {
+transform: scale(1.7);
+  }
+}
+
+
+/* infoknop */
+.infoknop3:link {
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: var(--kleur-zwart);
+  background-color: var(--info-knop);
+  color: var(--kleur-wit);
+  text-align: center;
+  font-family: marioletters;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+}
+
+.infoknop3:visited {
+  background-color: var(--info-knop-bezocht);
+  color: var(--kleur-wit);
+  border-color: var(--kleur-zwart);
+}
+
+.infoknop3:visited:hover {
+  background-color: var(--kleur-wit);
+  color: var(--info-knop-bezocht);
+  border-color: var(--kleur-zwart);  
+}
+
+.infoknop3:hover {
+  background-color: var(--kleur-wit);
+  color: var(--info-knop);
+  border-color: var(--kleur-zwart);  
+}
+
+.infoknop3:active {
+  background-color: var(--info-knop-actief);
+  color: var(--kleur-wit);
+  border-color: var(--kleur-zwart);  
 }
