@@ -51,6 +51,7 @@ Mijn startniveau is: (Baby)blauw
 
   ### Bevinding 1:
 De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heeft meerdere witte stippen. Ik wilde in dit concept deze stippen kleiner maken en gebruik maken van deze stippen om hier in elk van een stip een afbeelding van Mario te verstoppen uit verschillende tijden. Toch was deze schets nog helemaal niet af en zat ik nog erg met hoe ik hier interactie in ging brengen.
+  
   <img src="readme-images/schetsmushroom.png" width="375px" alt="mushroom schets">
 
   #### oplossing:
