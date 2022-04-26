@@ -192,7 +192,7 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik heb heel veel geleerd de afgelopen tijd. Ik had in het begin niet verwacht dat ik dit zou kunnen neerzetten. Ik heb veel video's gekeken online, oefeningen gedaan, en hulp gehad van mijn medestudenten en docent Sanne. De animaties maken vond ik het leukste van wat ik heb geleerd. Dit ging naar mijn mening ook het beste. 
+  Ik heb heel veel geleerd de afgelopen tijd. Ik had in het begin niet verwacht dat ik dit zou kunnen neerzetten. Ik heb veel video's gekeken online, oefeningen gedaan, en hulp gehad van mijn medestudenten en docent Sanne. De animaties maken vond ik het leukste van wat ik heb geleerd. Dit ging naar mijn mening ook het beste. Ik heb van Sanne een handige manier geleerd hoe ik mijn schermen mooi naast elkaar kon zetten waardoor het verschillende levels leken en ik geen JavaScript voor nodig had. Ik heb ook een klein beetje JavaScript geleerd de afgelopen 2 weken. Hierdoor weet ik nu toch een beetje hoe je een animatie kan laten starten door middel van een druk op een knop. Ik denk dat ik dit zeker nog wel een keer nodig zal hebben wil ik doorgaan met coderen. Ik heb ook geleerd 
 
   <img src="readme-images/kijkgeschiedenis.png" width="375px" alt="kijkgeschiedenis">
 
