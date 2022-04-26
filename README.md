@@ -210,7 +210,7 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
 ## Bronnenlijst
 
 <details open>
-<summary></summary>
+<summary>De volgende bronnen heb ik gebruikt voor afbeeldingen, informatie, fonts, symbolen en inspiratie voor codes. </summary>
 
   1. https://mario.fandom.com/nl/wiki/Brick_Block
   2. https://www.symbolsofit.com/nl/arrow/
