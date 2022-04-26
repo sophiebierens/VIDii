@@ -204,6 +204,7 @@ li {
   border: var(--kleur-zwart) solid 1em;
 }
 
+/* hulp gehad van Sanne bij maken animatie goomba ontploft */
 /* goomba animatie */
 .goomba1985 {
   width: 1.5em;
@@ -390,6 +391,30 @@ transform: scale(2);
   border: var(--kleur-zwart) solid 1em;
   }
 
+/* mushroom animatie */
+.mushroom {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 77.5%;
+  left: -1.5%;
+  animation-name: mushroom;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mushroom {
+0% {
+transform: translateX(1em);
+  }
+50% {
+  transform: translateX(19.5em);
+  }
+100% {
+  transform: translateX(1em);
+  }
+}
 
 /* blok jaartal hover animatie*/
 .blok2006 {
@@ -415,30 +440,6 @@ transform: scale(3);
   }
 }
 
-/* mushroom animatie */
-.mushroom {
-  width: 1.5em;
-  height: 1.5em;
-  position: absolute;
-  top: 77.5%;
-  left: -1.5%;
-  animation-name: mushroom;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes mushroom {
-0% {
-transform: translateX(1em);
-  }
-50% {
-  transform: translateX(19.5em);
-  }
-100% {
-  transform: translateX(1em);
-  }
-}
 /* blok met muntje animatie */
 .blokvraagteken {
   width: 1.5em;
@@ -551,6 +552,7 @@ transform: translateX(1em);
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 } 
+
 .muntR2 {
   width: 0.7em;
   height: 1em;
@@ -654,31 +656,7 @@ transform: translateX(1em);
   border: var(--kleur-zwart) solid 1em;
 }
 
-
-/* animatie wolkmannetje gooit bal */
-.wolkmannetje {
-  width: 4em;
-  height: 4em;
-  position: absolute;
-  top: 13%;
-  animation-name: wolkmannetje;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-out; 
-}
-
-@keyframes wolkmannetje {
-  0% {
-  transform: translateX(16em);
-    }
-  50% {
-    transform: translateX(23em);
-    }
-  100% {
-    transform: translateX(16em);
-    }
-  }
-
+/* animatie rode bal die wolkmannetje gooit */
 .rodebal1 {
   width: 1.3em;
   height: 1.3em;
@@ -724,6 +702,31 @@ transform: translateX(1em);
   opacity: 0;
     }
   }
+
+/* animatie wolkmannetje */
+.wolkmannetje {
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  top: 13%;
+  animation-name: wolkmannetje;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out; 
+}
+
+@keyframes wolkmannetje {
+  0% {
+  transform: translateX(16em);
+    }
+  50% {
+    transform: translateX(23em);
+    }
+  100% {
+    transform: translateX(16em);
+    }
+  }
+
 
 /* mario vliegt */
 .mario2010 {
