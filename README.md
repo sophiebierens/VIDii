@@ -135,10 +135,10 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
   
   
   ### Bevinding 4:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Rowin gaf aan dat er nog geen fonts in stonden. Ik had zoals hierboven te lezen is nog geen tekst toegevoegd en dus daarom ook nog geen fonts in mijn code gezet. Ik moest dit daarom nog wel doen en het liefst natuurlijk ook een font wat goed past bij mijn design. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb dit opgelost door te gaan zoeken naar een passend font. Ik had een font gevonden die past bij het game thema van Mario. Dit font heb ik uitgekozen omdat het erg lijkt op pixels, wat goed past bij de oude Mario. Omdat dit een font is wat ik gedownload heb, heb ik een tweede font toegevoegd in mijn code die bij iedereen leesbaar moet zijn. Zo wordt er altijd een font gekozen door de computer/laptop.
   
   
   
