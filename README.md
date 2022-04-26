@@ -54,45 +54,45 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
   <img src="readme-images/schetsmushroom.png" width="375px" alt="mushroom schets">
 
   #### oplossing:
-  Amber gaf als feedback dat hier inderdaad weinig interactiefs mee kon gebeuren. Als ik hier meer interactie in zou willen brengen zou ik in de bolletjes een filmpje kunnen laten afspelen of dat de bolletjes groter werden of zouden bewegen. Ook zou ik de oogjes kunnen laten knipperen.
+  Amber gaf als feedback dat hier inderdaad weinig interactiefs mee kon gebeuren. Als ik hier meer interactie in zou willen brengen zou ik in de bolletjes een filmpje kunnen laten afspelen of dat de bolletjes groter werden of zouden bewegen. Ook zou ik de oogjes kunnen laten knipperen. Ik heb dit idee niet gekozen uiteindelijk, omdat ik dit toch een te statisch beeld vond. Er valt weinig mee te ontwerpen en er is weinig interactie mee te creëren. 
 
 
 
   ### Bevinding 2:
-  Deze schets was ook nog erg oppervlakkig. Mijn idee was om in de blokjes afbeeldingen of bewegende animaties van mario te stoppen van elk jaartal. Hoe hoger je komt hoe verder je in de tijd gaat naar het nu.  
+  Deze schets was ook nog erg oppervlakkig. Mijn idee was om in de blokjes afbeeldingen of bewegende animaties van Mario te stoppen van elk jaartal. Hoe hoger je komt hoe verder je in de tijd gaat naar het nu.  
 
  <img src="readme-images/schetstoren.png" width="375px" alt="toren schets">  
   
   #### oplossing:
-  Amber kwam met het idee om een mario te maken die elke keer een trede omhoog gaat en dan veranderd van design. (tekst en afbeeding(en)).
+  Amber kwam met het idee om een mario te maken die elke keer een trede omhoog gaat en dan veranderd van design. Hierdoor laat je direct zien hoe elke Mario in welke jaartal eruit zag. Toch heb ik dit idee niet uitgekozen, omdat ik dit idee niet heel spannend vond doordat er niet veel animaties aan toe te voegen zijn.
 
 
 
   ### Bevinding 3:
-  Bij deze schets had ik bedacht om één design te maken waarin de blokjes, net als bij het Mushroom design, veranderen wanneer je eroverheen hovert of op klikt. Toch zullen de blokjes wel erg klein zijn en dit kan het onduidelijk maken wat er gebeurt op de pagina. (tekst en afbeeding(en)).
+  Bij deze schets had ik bedacht om één design te maken waarin de blokjes, net als bij het Mushroom design, veranderen wanneer je eroverheen hovert of op klikt. Toch zullen de blokjes wel erg klein zijn en dit kan het onduidelijk maken wat er gebeurt op de pagina. 
   
 <img src="readme-images/schetsblokken.png" width="375px" alt="blokken schets">
 
   #### oplossing:
-  Samen met Amber kwam ik met de oplossing om een inzoom effect te creeëren wanneer je eroverheen hovert. Dit voorkomt dat het niet leesbaar is. Ook kwam Amber met het idee om in plaats van elk blokje een design in te maken, iets met een klik animatie te doen waardoor de mario veranderd. Zo hoef je niet de blokjes één voor één te lezen. (tekst en afbeeding(en)).
+  Samen met Amber kwam ik met de oplossing om een inzoom effect te creeëren wanneer je eroverheen hovert. Dit voorkomt dat het niet leesbaar is. Ook kwam Amber met het idee om in plaats van in elk blokje een design te maken, iets met een klik animatie te doen waardoor de Mario zelf veranderd. Zo hoef je niet de blokjes één voor één te lezen. Ik heb uiteindelijk niet voor dit design gekozen, omdat het voor mij een te saai beeld werd als je maar naar één scherm bleef kijken. 
   
   
   ### Bevinding 4:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Deze schets is een schets van een spel van mario. Het idee is om de Mario door het level te laten bewegen met animatie effecten en knoppen die de tijd veranderen van de game. De elementen die ik bij deze schets in gedachte had zijn de Mushroom en/of Boomba uit het spel die bewegen door het design. Het probleem wat hier was dat ik niet wist hoe ik deze knoppen zou vormgeven. Het past niet heel erg bij Mario en hoe het nu in de schets staat, staat het los van het design, 
   
   <img src="readme-images/Schetsnknopspel.png" width="375px" alt="spel met knoppen schets">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Samen met Amber kwam ik tot de conclusie dat de knoppen niet helemaal passen bij het spel. Wel vonden we het een leuk idee om iets met knoppen te doen, ook omdat dit past bij het game element van Mario. Dit zou in de vorm van een game controller kunnen of game product zoals een Nintendo Switch. Dit design heb ik als inspiratie gebruikt bij mijn concept. Maar ik ben wel erg benieuwd hoe ik dit in elkaar wil gaan zetten. Ik heb op dit moment nog weinig kennis hierover. 
   
   
   ### Bevinding 5:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Deze schets lijkt eigenlijk erg op de vorige schets. Deze schets is eigenlijk hetzelfde, maar hier worden de schermen op een andere manier vormgegeven. De schermen zijn hier als een soort ladder te zien boven elkaar. Je kan scrollend door de schermen heen om de verschillende levels te bekijken uit de verschillende jaartallen. Het probleem alleen bij dit scherm is dat ik niet goed wist hoe ik de overgang van de levels duidelijk kon maken. 
   
   <img src="readme-images/schetsspel.png" width="375px" alt="spel schets">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Een oplossing hiervoor kan zijn dat ik de Mario zo animeer dat hij uit het scherm loopt, en bij een nieuw scherm er weer inloopt. Mario zou dan via een buis er in kunnen gaan en bij een nieuw scherm eruit. Ook deze schets ga ik ook gebruiken als inspiratie voor mijn concept. Ik weet nog niet precies hoe ik de schermen in elkaar wil laten overlopen, maar dit is wel een fijne manier. 
 
 
 
@@ -157,25 +157,46 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
 
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  Samen met Amber hebben we een laatste feedback moment gedaan. Hierbij hebben we elkaars werk voor de laatste keer gecontroleerd op foutjes of gebrekken. 
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Amber gaf aan dat zij de knoppen in de focus staat niet heel duidelijk vond. Zij gaf als tip om de lijn dikker te maken. Daarbij haakte Timo ook even in en kwam met het punt dat alle knoppen beschikbaar waren in de focus staat. Hij gaf als tip om alle knoppen die niet klikbaar waren uit te zetten. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Dit heb ik opgelost door de focus border te vergroten, zodat het opvallender werd waar je op staat. Ook heb ik de tabindex afgesloten bij de knoppen die niet klikbaar zijn. Zo zie je beter wat de mogelijke functies zijn en ben je niet eindeloos aan het zoeken en klikken. 
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Amber gaf aan dat zij bij de buttons van de Nintendo Switch nog een hover zou willen zien. Zij vond het niet geheel duidelijk anders welke knoppen er actief zijn.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb dit opgelost door een hover functie toe te voegen. Hiervoor heb ik een donkere kleur gebruikt. Dezelfde als wanneer je er op klikt. Dit om het effect te geven dat je het knopje even indrukt net als bij een echte Nintendo Switch. 
 
 
 
   ### Bevinding 3:
   ...
+  
+  #### oplossing:
+  Ik
+
+  
+   ### Bevinding 4:
+  Amber gaf aan dat zij de jaartallen bij het eerste en laatste scherm niet heel duidelijk vond. Bij het tweede scherm vond zij het wel duidelijk uit welk jaartal hier kwam. 
+  
+
+  #### oplossing:
+  Ik heb hiervoor de afbeeldingen aangepast die ik vormgegeven had. Ik heb bij beide afbeeldingen de tekst vergroot en bij één afbeelding een schaduw en lijn toegevoegd. Ik heb het niet heel erg vergroot, omdat het ook nog in verhouding moest staan aan de rest van mijn design. Het was daarom lastig om het nog duidelijker te maken omdat het een scherm in een Nintendo Switch is. Toch ben ik wel tevreden met hoe het er nu in staat. 
+  
+  
+  ### Bevinding 5:
+  Doordat Amber en ik nog samen even door het design zijn gaan lopen kwamen we erachter dat wanneer de cursor over knop 'B' heen ging geen handje kreeg. Hierdoor was het niet duidelijk dat je kon klikken op deze knop. 
+  
+  
+  #### oplossing:
+  Dit heb ik opgelost door cursor pointer toe te voegen onder de class van knop 'B'. Hierdoor veranderd de cursor automatisch in een handje wanneer je over de knop heen beweegd.  
+
 
 </details>
 
