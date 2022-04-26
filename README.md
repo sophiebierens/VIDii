@@ -25,7 +25,7 @@ Mijn startniveau is: Blauw
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  <summary>De eerste versie/schets ontwerp & persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
   <img src="readme-images/Schets.jpeg" width="375px" alt="eerste versie/schets">
@@ -104,7 +104,11 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Checklist formulier</summary>
+  Samen met Rowin ben ik het checklist formulier gaan doornemen.
+  
+  
+  <img src="readme-images/feedback_rowin_1A.jpeg" height="375px" alt="eerste checklist formulier"> <img src="readme-images/feedback_rowin_1B.jpeg" height="375px" alt="eerste checklist formulier">
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
