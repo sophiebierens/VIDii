@@ -105,30 +105,50 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
 
 <details>
   <summary>Checklist formulier</summary>
-  Samen met Rowin ben ik het checklist formulier gaan doornemen.
+  Samen met Rowin ben ik het checklist formulier gaan doornemen. Hij heeft al veel ervaring in HTML en CSS dus dit kwam voor mij goed uit dat hij mijn werk kon nakijken. 
   
   
   <img src="readme-images/feedback_rowin_1A.jpeg" height="375px" alt="eerste checklist formulier"> <img src="readme-images/feedback_rowin_1B.jpeg" height="375px" alt="eerste checklist formulier">
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Rowin kwam met het punt dat ik nog tekst en een H1 miste. Op het beoordelingsformulier staat dat ik verplicht een H1 en p moet toevoegen. Dit had ik op dit moemnt nog niet gedaan. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik had dit nog niet toegevoegd omdat ik nog niet precies wist waar ik dit moest toevoegen. Rowin kwam met het idee om het eronder toe te voegen. Ik heb dit nu uiteindelijk opgelost door een quote toe te voegen als H1 en de tekst eronder geeft kort weer wat er te zien en doen is op de website. 
 
 
 
   ### Bevinding 2:
+  Rowin gaf aan dat er nog te weinig commentaar staat in mijn code. Hierdoor is het niet heel duidelijk voor iemand die de website niet kent. 
+
+  #### oplossing:
+  Ik heb dit opgelost door grote koppen te maken bij grote onderdelen, zoals bijvoorbeeld de jaartallen. En kleine kopjes te maken bij onderdelen die daaronder vallen. Ook heb ik in mijn code erbij gezet of ik hulp heb gehad, en van wie, en waar ik het echt volledig zelf heb gemaakt. 
+
+  
+  ### Bevinding 3:
+  Rowin gaf aan dat de naamgeving van classes, IDs en variabelen nog niet helemaal consistent was. Ik was me niet bewust van het feit dat je alle namen van documenten in dezelfde taal moest houden. Ik had hierdoor veel in het Engels en Nederlands. 
+
+  #### oplossing:
+  Ik heb dit opgelost door alles in het Nederlands te veranderen. Enkele namen heb ik gehouden. Dit was alleen als het een naam was van een character Mario.
+  
+  
+  
+  ### Bevinding 4:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  
+  
+  ### Bevinding 5:
+  Rowin gaf aan dat ik nog geen CSS costum properties had. Ik had alle kleuren met een losse kleurcode aangegeven waardoor het wat onoverzichtelijk was.
+  
+  #### oplossing:
+  BDit heb ik opgelost door voor 
 
-
-
-  ### Bevinding 3:
-  ...
-
+  
+  
 </details>
 
 
