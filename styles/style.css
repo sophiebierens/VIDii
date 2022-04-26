@@ -24,7 +24,6 @@
   --info-knop: #44AF35; 
   --info-knop-bezocht: #DE1400; 
   --info-knop-actief: #00A6EA; 
-  
 }
 
 html {
@@ -35,20 +34,19 @@ html {
   place-items: center center;
 }
 
-h1 {
-  font-family: marioletters;
-  text-align: center;
-}
-
 .mariologo {
   height: 2em;
   width: 6em;
 }
 
-p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-} 
+
+
+
+
+
+/* **************** */
+/* NINTENDO SWITCH */
+/* ************** */
 
 /* hulp gehad bij het vormen van de nintendo switch van Timo, zoals de flex van de elementen, vormgeving zelf gedaan */
 /* achterkant */
@@ -62,6 +60,17 @@ article {
               inset 0em 0.2em 0.05em var(--schaduw-L-button);
 }
 
+
+
+
+
+
+
+
+/* ********************** */
+/* CONTROLER BLAUW LINKS */
+/* ******************** */
+
 /* controler links */
 .linksblauw {
   background-color: var(--kleur-blauw);
@@ -72,21 +81,41 @@ article {
   position: relative;
 }
 
-/* controler rechts */
-.rechtsrood {
-  background-color: var(--kleur-rood);
-  flex:0.17;
-  position: relative;
-  border-radius: 0em 4em 4em 0em;
-  box-shadow: inset -0.2em -0.2em 0.05em var(--schaduw-donker),
-              inset 0em 0.2em 0.05em var(--schaduw-licht);
+/* ronde knop */
+.rondje {
+  width: 4.5em;
+  height: 4.5em;
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--vulling-buttons);
+  border: solid 0.1em var(--kleur-zwart); 
+  box-shadow: inset .1em -.1em 0.05em var(--schaduw-D-button),
+              inset -.1em .1em 0.05em var(--schaduw-L-button);
+  left: 52%;
+  top: 20%;
+  transform: translateX(-50%);
 }
 
-/* buttons links */
-.pijltjes button {
+.rondje::before {
+  content: '';
+  height: 80%;
+  width: 80%;
   position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: .15em solid var(--lijnen-buttons);
+  box-shadow: inset -.05em .05em 0.05em var(--schaduw-D-button),
+              inset .05em -.05em 0.05em var(--schaduw-L-button),
+                   -.05em .05em 0.05em var(--schaduw-D-button),
+                    .05em -.1em 0.05em var(--schaduw-donker);
+                    
+}
+
+/* pijltjes buttons */
+.pijltjes button {
   width: 2em;
   height: 2em;
+  position: absolute;
   border-radius: 50%;
   text-align: center;
   background-color: var(--vulling-buttons);
@@ -115,104 +144,11 @@ article {
   left: 35%;
 }
 
-.rondje {
-  position: absolute;
-  width: 4.5em;
-  height: 4.5em;
-  border-radius: 50%;
-  background-color: var(--vulling-buttons);
-  border: solid 0.1em var(--kleur-zwart); 
-  box-shadow: inset .1em -.1em 0.05em var(--schaduw-D-button),
-              inset -.1em .1em 0.05em var(--schaduw-L-button);
-  left: 52%;
-  top: 20%;
-  transform: translateX(-50%);
-}
-
-.rondje::before {
-  content: '';
-  position: absolute;
-  height: 80%;
-  width: 80%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  border: .15em solid var(--lijnen-buttons);
-  box-shadow: inset -.05em .05em 0.05em var(--schaduw-D-button),
-              inset .05em -.05em 0.05em var(--schaduw-L-button),
-                   -.05em .05em 0.05em var(--schaduw-D-button),
-                    .05em -.1em 0.05em var(--schaduw-donker);
-                    
-}
-
-/* buttons rechts */
-.letters button {
-  position: absolute;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  text-align: center;
-  background-color: var(--vulling-buttons);
-  border: solid 0.1em var(--kleur-zwart); 
-  box-shadow: inset .1em -.1em 0.05em var(--schaduw-D-button),
-              inset -.1em .1em 0.05em var(--schaduw-L-button); 
-}
-
-.letters .X {
-  top: 16%;
-  left: 35%;
-}
-
-.letters .A {
-  top: 25%;
-  left: 60%;
-  cursor:pointer;
-
-  transition:background-color .2s 1s;
-}
-
-.letters .A:active {
-  background-color: var(--lijnen-buttons);
-  transition:background-color 0s;
-}
 
 
-.letters .B {
-  top: 25%;
-  left: 10%;
-}
 
-.letters .Y {
-  top: 34%;
-  left: 35%;
-}
 
-.rondje2 {
-  position: absolute;
-  width: 4.5em;
-  height: 4.5em;
-  border-radius: 50%;
-  background-color: var(--vulling-buttons);
-  border: solid 0.1em var(--kleur-zwart); 
-  box-shadow: inset .1em -.1em 0.05em var(--schaduw-D-button),
-  inset -.1em .1em 0.05em var(--schaduw-L-button);
-  left: 48%;
-  top: 50%;
-  transform: translateX(-50%);
-}
 
-.rondje2::before {
-  content: '';
-  position: absolute;
-  height: 80%;
-  width: 80%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  border: .15em solid var(--lijnen-buttons);
-  box-shadow: inset -.05em .05em 0.05em var(--schaduw-D-button),
-              inset .05em -.05em 0.05em var(--schaduw-L-button),
-                   -.05em .05em 0.05em var(--schaduw-D-button),
-                    .05em -.1em 0.05em var(--schaduw-donker);
-}
 
 
 
@@ -260,14 +196,12 @@ li {
 
 .scherm2 {
   height:100%;
-  background-color: var(--kleur-zwart);
-  border: var(--kleur-zwart) solid 1em;
+  position: relative;
+  background-image: url(../images/achtergrond1985.png);
+  background-size: cover;
   border-radius: 1em;
   border-style: solid;
-  background-image: url(/images/achtergrond1985.png);
-  background-size: cover;
-  position: relative;
-  display: block;
+  border: var(--kleur-zwart) solid 1em;
 }
 
 /* goomba animatie */
@@ -281,6 +215,8 @@ li {
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+
+  transition:.4s;
 }
 
 @keyframes goomba1985 {
@@ -294,6 +230,18 @@ transform: translateX(10.5em);
   transform: translateX(10.5em);
   }
 }
+
+.goomba1985.goombaboom {
+  width: 3em;
+  height: 3em;
+  opacity: 0;
+
+  top: calc(75% - .75em);
+  left: calc(-1.5% - .75em);
+
+  animation-play-state: paused;
+}
+
 
 /* mario animatie */
 .mario1985 {
@@ -310,31 +258,31 @@ transform: translateX(10.5em);
 
 @keyframes mario1985 {
   0% {
-  transform: translateY(0) translateX(7.5em);
+  transform: translateX(7.5em) translateY(0);
   }
   25% {
-  transform: translateY(-2.7em) translateX(7.5em);
+  transform: translateX(7.5em) translateY(-2.7em);
   }
   30% {
-  transform: translateY(-2.7em) translateX(7.5em);  
+  transform: translateX(7.5em) translateY(-2.7em);  
   }
  40% {
-  transform: translateY(-2.7em) translateX(10em); 
+  transform: translateX(10em) translateY(-2.7em); 
   }
   45% {
-  transform: translateY(0em) translateX(10em);   
+  transform: translateX(10em) translateY(0em);   
   }
   67% {
-  transform: translateY(0) translateX(15em);
+  transform: translateX(15em) translateY(0);
   }
   75% {
-  transform: translateY(-2em) translateX(17em);
+  transform: translateX(17em) translateY(-2em);
   }
   80% {
-    transform: translateY(0) translateX(18em);
+  transform: translateX(18em) translateY(0);
   }
   100% {
-  transform: translateY(0em) translateX(26em);
+  transform: translateX(26em) translateY(0em);
   }
 }
 
@@ -423,6 +371,10 @@ transform: scale(2);
   border-color: var(--kleur-zwart);  
 }
 
+.infoknop1:focus {
+  border: .1em #fff;
+  border-style: solid;
+}
 
 /* ********* */
 /*** 2006  ***/
@@ -430,15 +382,14 @@ transform: scale(2);
 
 .scherm1 {
   height:100%;
-  background-color: var(--kleur-zwart);
-  border: var(--kleur-zwart) solid 1em;
+  position: relative;
+  background-image: url(../images/achtergrond2006.png);
+  background-size: cover;
   border-radius: 1em;
   border-style: solid;
-  background-image: url(/images/achtergrond2006.png);
-  background-size: cover;
-  position: relative;
-  display: block;
+  border: var(--kleur-zwart) solid 1em;
   }
+
 
 /* blok jaartal hover animatie*/
 .blok2006 {
@@ -518,7 +469,7 @@ transform: translateX(1em);
   transform: rotateY(0deg) translateY(0);
   }
   30% {
-    transform: rotateY(0) rotateY(0);
+    transform: rotateY(0) translateY(0);
   }
   40% {
   transform: rotateY(180deg) translateY(-1.7em);
@@ -547,7 +498,8 @@ transform: translateX(1em);
   animation-name: mario2006;
   animation-duration: 0.9s;
   animation-iteration-count: 1;
-  animation-timing-function: ease-in;}
+  animation-timing-function: ease-in;
+}
 
 @keyframes mario2006 {
   0% {
@@ -675,6 +627,10 @@ transform: translateX(1em);
   border-color: var(--kleur-zwart);  
 }
 
+.infoknop2:focus {
+  border: .1em #fff;
+  border-style: solid;
+}
 
 
 
@@ -690,15 +646,14 @@ transform: translateX(1em);
 
 .scherm3 {
   height:100%;
-  background-color: var(--kleur-zwart);
-  border: var(--kleur-zwart) solid 1em;
+  position: relative;
+  background-image: url(../images/achtergrond2010.png);
+  background-size: cover;
   border-radius: 1em;
   border-style: solid;
-  background-image: url(/images/achtergrond2010.png);
-  background-size: cover;
-  position: relative;
-  display: block;
+  border: var(--kleur-zwart) solid 1em;
 }
+
 
 /* animatie wolkmannetje gooit bal */
 .wolkmannetje {
@@ -923,7 +878,7 @@ transform: translateX(1em);
 transform: scale(1);
   }
   100% {
-transform: scale(1.7);
+transform: scale(2);
   }
 }
 
@@ -970,3 +925,148 @@ transform: scale(1.7);
   color: var(--kleur-wit);
   border-color: var(--kleur-zwart);  
 }
+
+.infoknop2:focus {
+  border: .1em #fff;
+  border-style: solid;
+}
+
+
+
+
+
+
+
+
+/* ********************** */
+/* CONTROLER ROOD RECHTS */
+/* ******************** */
+
+/* controler rechts */
+.rechtsrood {
+  background-color: var(--kleur-rood);
+  flex:0.17;
+  position: relative;
+  border-radius: 0em 4em 4em 0em;
+  box-shadow: inset -0.2em -0.2em 0.05em var(--schaduw-donker),
+              inset 0em 0.2em 0.05em var(--schaduw-licht);
+}
+
+/* ronde knop */
+.rondje2 {
+  width: 4.5em;
+  height: 4.5em;
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--vulling-buttons);
+  border: solid 0.1em var(--kleur-zwart); 
+  box-shadow: inset .1em -.1em 0.05em var(--schaduw-D-button),
+              inset -.1em .1em 0.05em var(--schaduw-L-button);
+  left: 48%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.rondje2::before {
+  content: '';
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: .15em solid var(--lijnen-buttons);
+  box-shadow: inset -.05em .05em 0.05em var(--schaduw-D-button),
+              inset .05em -.05em 0.05em var(--schaduw-L-button),
+                   -.05em .05em 0.05em var(--schaduw-D-button),
+                    .05em -.1em 0.05em var(--schaduw-donker);
+}
+
+/* letter buttons */
+.letters button {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  border-radius: 50%;
+  text-align: center;
+  background-color: var(--vulling-buttons);
+  border: solid 0.1em var(--kleur-zwart); 
+  box-shadow: inset .1em -.1em 0.05em var(--schaduw-D-button),
+              inset -.1em .1em 0.05em var(--schaduw-L-button); 
+}
+
+/* knop X */
+.letters .X {
+  top: 16%;
+  left: 35%;
+}
+
+/* knop A */
+.letters .A {
+  top: 25%;
+  left: 60%;
+  cursor:pointer;
+}
+
+.letters .A:hover {
+  background-color: var(--lijnen-buttons);
+  transition:background-color 0s;
+}
+
+.letters .A:active {
+  background-color: var(--lijnen-buttons);
+}
+
+.letters .A:focus {
+  border: 0.2em var(--kleur-wit);
+  border-style: solid; 
+}
+
+/* knop B */
+.letters .B {
+  top: 25%;
+  left: 10%;
+  cursor:pointer;
+}
+
+.letters .B:hover {
+  background-color: var(--lijnen-buttons);
+}
+
+
+.letters .B:active {
+  background-color: var(--lijnen-buttons);
+}
+
+.letters .B:focus {
+  border: 0.2em var(--kleur-wit);
+  border-style: solid; 
+}
+
+/* knop Y */
+.letters .Y {
+  top: 34%;
+  left: 35%;
+}
+
+
+
+
+
+
+
+
+
+/* ********************** */
+/* TEKST ONDERAAN PAGINA */
+/* ******************** */
+
+h1 {
+  font-family: marioletters, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+} 
