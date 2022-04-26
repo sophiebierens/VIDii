@@ -176,10 +176,10 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
 
 
   ### Bevinding 3:
-  ...
+  Doordat Amber en ik samen nog even door de code zijn gegaan, kwam ik erachter dat er een class niet op dezelfde plek stond als in de HTML. Dit is een probleem voor degene die de code leest doordat het dan niet duidelijk is waar alles staat. Je wil zo snel mogelijk iets vinden en dan moet alles wel gelijk staan aan elkaar. 
   
   #### oplossing:
-  Ik
+  Ik heb dit opgelost door te kijken naar de HTML die volgorde aan te houden voor de CCS. Ik ben door mijn CSS gegaan en heb het daaraan gelijk gezet, zodat het duidelijk is waar je wat kan vinden.
 
   
    ### Bevinding 4:
@@ -209,11 +209,11 @@ De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heef
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/scherm.png" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik heb heel veel geleerd de afgelopen tijd. Ik had in het begin niet verwacht dat ik dit zou kunnen neerzetten. Ik heb veel video's gekeken online, oefeningen gedaan, en hulp gehad van mijn medestudenten en docent Sanne. De animaties maken vond ik het leukste van wat ik heb geleerd. Dit ging naar mijn mening ook het beste. Ik heb van Sanne een handige manier geleerd hoe ik mijn schermen mooi naast elkaar kon zetten waardoor het verschillende levels leken en ik geen JavaScript voor nodig had. Ik heb ook een klein beetje JavaScript geleerd de afgelopen 2 weken. Hierdoor weet ik nu toch een beetje hoe je een animatie kan laten starten door middel van een druk op een knop. Ik denk dat ik dit zeker nog wel een keer nodig zal hebben wil ik doorgaan met coderen. Ik heb ook geleerd 
+  Ik heb heel veel geleerd de afgelopen tijd. Ik had in het begin niet verwacht dat ik dit zou kunnen neerzetten. Ik heb veel video's gekeken online, oefeningen gedaan, en hulp gehad van mijn medestudenten en docent Sanne. De animaties maken vond ik het leukste van wat ik heb geleerd. Dit ging naar mijn mening ook het beste. Ik heb van Sanne een handige manier geleerd hoe ik mijn schermen mooi naast elkaar kon zetten waardoor het verschillende levels leken en ik geen JavaScript voor nodig had. Ik heb ook een klein beetje JavaScript geleerd de afgelopen 2 weken. Hierdoor weet ik nu toch een beetje hoe je een animatie kan laten starten door middel van een druk op een knop. Ik denk dat ik dit zeker nog wel een keer nodig zal hebben wil ik doorgaan met coderen. Ik heb ook geleerd hoe je in CCS en HTML een, bijna, realitsche Nintendo Switch kan vormgeven. Ik had niet verwacht dat dat zou lukken aan het begin van dit blok. 
 
   <img src="readme-images/kijkgeschiedenis.png" width="375px" alt="kijkgeschiedenis">
 
