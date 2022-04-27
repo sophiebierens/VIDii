@@ -50,7 +50,7 @@ Mijn startniveau is: (baby)blauw
   Ik ben begonnen met 5 schetsen maken. elk van deze schetsen had nog zijn gebrekken en daar ga ik hier op inhaken. Ik heb aan Amber Bellaart gevraagd of zij feedback wilde geven op elk van de schetsen. Aan de hand daarvan heb ik aanpassingen gedaan. 
 
   ### Bevinding 1:
-De eerste schets was de grote 'mushroom' uit het spel van Mario. De mushroom uit Mario heeft meerdere witte stippen. Ik wilde in dit concept deze stippen kleiner maken en in elke stip een afbeelding van Mario verstoppen uit verschillende tijden. Toch was deze schets nog helemaal niet af en zat er nog mee hoe ik hier interactie in ging brengen.
+De eerste schets was de grote 'Mushroom' uit het spel van Mario. De Mushroom uit Mario heeft meerdere witte stippen. Ik wilde in dit concept deze stippen kleiner maken en in elke stip een afbeelding van Mario verstoppen uit verschillende tijden. Toch was deze schets nog helemaal niet af en zat er nog mee hoe ik hier interactie in ging brengen.
   
   <img src="readme-images/schetsmushroom.png" width="375px" alt="mushroom schets">
 
@@ -79,12 +79,12 @@ De eerste schets was de grote 'mushroom' uit het spel van Mario. De mushroom uit
   
   
   ### Bevinding 4:
-  Deze schets is een schets van een spel van mario. Het idee is om de Mario door het level te laten bewegen met animatie effecten en knoppen die de tijd veranderen van de game. De elementen die ik bij deze schets in gedachte had zijn de Mushroom en/of Boomba uit het spel die bewegen door het design. Het probleem wat hier was dat ik niet wist hoe ik deze knoppen zou vormgeven. Het past niet heel erg bij Mario en hoe het nu in de schets staat, staat het los van het design, 
+  Deze schets is een schets van een spel van mario. Het idee is om de Mario door het level te laten bewegen met animatie effecten en knoppen die de tijd veranderen van de game. De elementen die ik bij deze schets in gedachte had zijn de Mushroom en/of Goomba uit het spel die bewegen door het design. Het probleem wat hier was dat ik niet wist hoe ik deze knoppen zou vormgeven. Het past niet heel erg bij Mario en hoe het nu in de schets staat, staat het los van het design, 
   
   <img src="readme-images/Schetsnknopspel.png" width="375px" alt="spel met knoppen schets">
 
   #### oplossing:
-  Samen met Amber kwam ik tot de conclusie dat de knoppen niet helemaal passen bij het spel. Wel vonden we het een leuk idee om iets met knoppen te doen, ook omdat dit past bij het game element van Mario. Dit zou in de vorm van een game controller kunnen of game product zoals een Nintendo Switch. Dit design heb ik als inspiratie gebruikt bij mijn concept. Maar ik ben wel erg benieuwd hoe ik dit in elkaar wil gaan zetten. Ik heb op dit moment nog weinig kennis hierover. 
+  Samen met Amber kwam ik tot de conclusie dat de knoppen niet helemaal passen bij het spel. Wel vond ik het een leuk idee om iets met knoppen te doen, ook omdat dit past bij het game element van Mario. Dit zou in de vorm van een game controller kunnen of game product zoals een Nintendo Switch. Deze schets heb ik als inspiratie gebruikt bij mijn concept. Maar ik ben wel erg benieuwd hoe ik dit in elkaar wil gaan zetten. Ik heb op dit moment nog weinig kennis hierover. 
   
   
   ### Bevinding 5:
@@ -112,7 +112,7 @@ De eerste schets was de grote 'mushroom' uit het spel van Mario. De mushroom uit
   <img src="readme-images/feedback_rowin_1A.jpeg" height="375px" alt="eerste checklist formulier"> <img src="readme-images/feedback_rowin_1B.jpeg" height="375px" alt="eerste checklist formulier">
   
   ### Bevinding 1:
-  Rowin kwam met het punt dat ik nog tekst en een H1 miste. Op het beoordelingsformulier staat dat ik verplicht een H1 en p moet toevoegen. Dit had ik op dit moment nog niet gedaan. 
+  Rowin kwam met het punt dat ik nog tekst en een H1 miste. Op het beoordelingsformulier staat dat ik verplicht een H1 en tekst moet toevoegen. Dit had ik op dit moment nog niet gedaan. 
 
   #### oplossing:
   Ik had dit nog niet toegevoegd omdat ik nog niet precies wist waar ik dit moest toevoegen. Rowin kwam met het idee om het eronder toe te voegen. Ik heb dit nu uiteindelijk opgelost door een quote toe te voegen als H1 en de tekst eronder geeft kort weer wat er te zien en doen is op de website. 
@@ -146,7 +146,7 @@ De eerste schets was de grote 'mushroom' uit het spel van Mario. De mushroom uit
   Rowin gaf aan dat ik nog geen CSS custom properties had. Ik had alle kleuren met een losse kleurcode aangegeven waardoor het wat onoverzichtelijk was.
   
   #### oplossing:
-  Dit heb ik opgelost door voor elke kleur een variabele aan te maken. Hierdoor ben ik ervan verzekerd dat ik altijd de goede kleuren aanhoudt en dat als ik iets wil veranderen in de kleuren het direct over de gehele pagina veranderd. Ook maakt dit het overzichtelijker voor iemand die de code leest. 
+  Dit heb ik opgelost door voor elke kleur een custom property aan te maken. Hierdoor ben ik ervan verzekerd dat ik altijd de goede kleuren aanhoudt en dat als ik iets wil veranderen in de kleuren het direct over de gehele pagina veranderd. Ook maakt dit het overzichtelijker voor iemand die de code leest. 
 
   
   
@@ -180,23 +180,23 @@ De eerste schets was de grote 'mushroom' uit het spel van Mario. De mushroom uit
   Doordat Amber en ik samen nog even door de code zijn gegaan, kwam ik erachter dat er een class niet op dezelfde plek stond als in de HTML. Dit is een probleem voor degene die de code leest doordat het dan niet duidelijk is waar alles staat. Je wil zo snel mogelijk iets vinden en dan moet alles wel gelijk staan aan elkaar. 
   
   #### oplossing:
-  Ik heb dit opgelost door te kijken naar de HTML die volgorde aan te houden voor de CCS. Ik ben door mijn CSS gegaan en heb het daaraan gelijk gezet, zodat het duidelijk is waar je wat kan vinden.
+  Ik heb dit opgelost door te kijken naar de HTML en die volgorde aan te houden voor de CCS. Ik ben door mijn CSS gegaan en heb dit daaraan gelijk gezet, zodat het duidelijk is waar je wat kan vinden.
 
   
    ### Bevinding 4:
-  Amber gaf aan dat zij de jaartallen bij het eerste en laatste scherm niet heel duidelijk vond. Bij het tweede scherm vond zij het wel duidelijk uit welk jaartal hier kwam. 
+  Amber gaf aan dat zij de jaartallen bij het eerste en laatste scherm niet heel duidelijk vond. Bij het tweede scherm vond zij het wel duidelijk welk jaartal hier te zien was. 
   
 
   #### oplossing:
-  Ik heb hiervoor de afbeeldingen aangepast die ik vormgegeven had. Ik heb bij beide afbeeldingen de tekst vergroot en bij één afbeelding een schaduw en lijn toegevoegd. Ik heb het niet heel erg vergroot, omdat het ook nog in verhouding moest staan aan de rest van mijn design. Het was daarom lastig om het nog duidelijker te maken omdat het een scherm in een Nintendo Switch is. Toch ben ik wel tevreden met hoe het er nu in staat. 
+  Ik heb hiervoor de afbeeldingen aangepast die ik vormgegeven had. Ik heb bij beide afbeeldingen de tekst vergroot en bij één afbeelding een schaduw en lijn toegevoegd. Ik heb het niet heel erg vergroot, omdat het ook nog in verhouding moest staan aan de rest van mijn design. Het was daarom lastig om het nog duidelijker te maken, omdat het een scherm in een Nintendo Switch blijft. Toch ben ik wel tevreden met hoe het er nu in staat. 
   
   
   ### Bevinding 5:
-  Doordat Amber en ik nog samen even door het design zijn gaan lopen kwamen we erachter dat wanneer de cursor over knop 'B' heen ging geen handje kreeg. Hierdoor was het niet duidelijk dat je kon klikken op deze knop. 
+  Doordat Amber en ik nog samen even door het design zijn gaan lopen kwamen we erachter dat wanneer de cursor over knop 'B' heen ging geen handje kreeg. Hierdoor was het niet duidelijk dat je kan klikken op deze knop. 
   
   
   #### oplossing:
-  Dit heb ik opgelost door cursor pointer toe te voegen onder de class van knop 'B'. Hierdoor veranderd de cursor automatisch in een handje wanneer je over de knop heen beweegd.  
+  Dit heb ik opgelost door een cursor pointer toe te voegen onder de class van knop 'B'. Hierdoor veranderd de cursor automatisch in een handje wanneer je over de knop heen beweegd.  
 
 
 </details>
