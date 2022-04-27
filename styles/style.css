@@ -416,45 +416,21 @@ transform: translateX(1em);
   }
 }
 
-/* blok jaartal hover animatie*/
-.blok2006 {
-  width: 1.5em;
-  height: 1.5em;
-  position: absolute;
-  top: 57.5%;
-  left: 24.7%;
-}
-
-.blok2006:hover {
-  animation-name: inzoom2006;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes inzoom2006 {
-  0% {
-transform: scale(1);
-  }
-  100% {
-transform: scale(3);
-  }
-}
-
 /* blok met muntje animatie */
-.blokvraagteken {
-  width: 1.5em;
-  height: 1.5em;
-  position: absolute;
-  top: 28%;
-  left: 30%;
-}
-
 .munt {
   width: 0.7em;
   height: 1em;
   position: absolute;
   top: 28%;
   left: 31%;
+}
+
+.blokvraagteken {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 28%;
+  left: 30%;
 }
 
 .munt.mariospringt {
@@ -523,7 +499,7 @@ transform: scale(3);
   }
 }
 
-/* overige blok elementen */
+/* blok elementen */
 .steen2006A {
   width: 1.5em;
   height: 1.5em;
@@ -538,6 +514,30 @@ transform: scale(3);
   position: absolute;
   top: 57.5%;
   left: 34.9%; 
+}
+
+/* blok jaartal hover animatie*/
+.blok2006 {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 57.5%;
+  left: 24.7%;
+}
+
+.blok2006:hover {
+  animation-name: inzoom2006;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes inzoom2006 {
+  0% {
+transform: scale(1);
+  }
+  100% {
+transform: scale(3);
+  }
 }
 
 /* munten animatie */
@@ -1019,11 +1019,6 @@ transform: scale(2);
   background-color: var(--lijnen-buttons);
 }
 
-.letters .A:focus {
-  border: 0.2em var(--kleur-wit);
-  border-style: solid; 
-}
-
 /* knop B */
 .letters .B {
   top: 25%;
@@ -1035,14 +1030,8 @@ transform: scale(2);
   background-color: var(--lijnen-buttons);
 }
 
-
 .letters .B:active {
   background-color: var(--lijnen-buttons);
-}
-
-.letters .B:focus {
-  border: 0.2em var(--kleur-wit);
-  border-style: solid; 
 }
 
 /* knop Y */
