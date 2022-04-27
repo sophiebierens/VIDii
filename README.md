@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Sophie Bierens
 
 #### Je startniveau:
-Mijn startniveau is: (Baby)blauw 
+Mijn startniveau is: (baby)blauw 
 
 
 
@@ -33,7 +33,7 @@ Mijn startniveau is: (Baby)blauw
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - Ik zou graag coderen in het algemeen willen snappen en hier ook mee kunnen werken. Voor mij is het nog nieuw, dus als ik iets moois in elkaar kan zetten qua webpagina met CSS en HTML zou ik al heel erg tevreden zijn. 
+  - Ik zou graag coderen in het algemeen willen snappen en hier ook mee kunnen werken. Voor mij is het nog nieuw, dus als ik iets moois in elkaar kan zetten zoals een webpagina met CSS en HTML zou ik al heel erg tevreden zijn. 
   - Leren hoe ik animaties kan toepasssen in een design.  
   - Leren hoe ik een adaptive design kan maken. 
   - Leren hoe ik vormen/elementen kan maken met CSS/HTML. 
@@ -50,17 +50,17 @@ Mijn startniveau is: (Baby)blauw
   Ik ben begonnen met 5 schetsen maken. elk van deze schetsen had nog zijn gebrekken en daar ga ik hier op inhaken. Ik heb aan Amber Bellaart gevraagd of zij feedback wilde geven op elk van de schetsen. Aan de hand daarvan heb ik aanpassingen gedaan. 
 
   ### Bevinding 1:
-De eerste schets was een grote Mushroom uit het spel van Mario. De Mushroom heeft meerdere witte stippen. Ik wilde in dit concept deze stippen kleiner maken en gebruik maken van deze stippen om hier in elk van een stip een afbeelding van Mario te verstoppen uit verschillende tijden. Toch was deze schets nog helemaal niet af en zat ik nog erg met hoe ik hier interactie in ging brengen.
+De eerste schets was de grote 'mushroom' uit het spel van Mario. De mushroom uit Mario heeft meerdere witte stippen. Ik wilde in dit concept deze stippen kleiner maken en in elke stip een afbeelding van Mario verstoppen uit verschillende tijden. Toch was deze schets nog helemaal niet af en zat er nog mee hoe ik hier interactie in ging brengen.
   
   <img src="readme-images/schetsmushroom.png" width="375px" alt="mushroom schets">
 
   #### oplossing:
-  Amber gaf als feedback dat hier inderdaad weinig interactiefs mee kon gebeuren. Als ik hier meer interactie in zou willen brengen zou ik in de bolletjes een filmpje kunnen laten afspelen of dat de bolletjes groter werden of zouden bewegen. Ook zou ik de oogjes kunnen laten knipperen. Ik heb dit idee niet gekozen uiteindelijk, omdat ik dit toch een te statisch beeld vond. Er valt weinig mee te ontwerpen en er is weinig interactie mee te creëren. 
+  Amber gaf als feedback dat hier inderdaad weinig interactiefs mee kon gebeuren. Als ik hier meer interactie in zou willen brengen zou ik in de bolletjes een filmpje kunnen laten afspelen, dat de bolletjes groter werden of zouden bewegen. Ook zou ik de oogjes kunnen laten knipperen. Ik heb dit idee niet gekozen uiteindelijk, omdat ik dit toch een te statisch beeld vond. Er valt weinig mee te ontwerpen en er is weinig interactie mee te creëren. 
 
 
 
   ### Bevinding 2:
-  Deze schets was ook nog erg oppervlakkig. Mijn idee was om in de blokjes afbeeldingen of bewegende animaties van Mario te stoppen van elk jaartal. Hoe hoger je komt hoe verder je in de tijd gaat naar het nu.  
+  Deze schets was ook nog erg oppervlakkig en zat ik nog met het punt hoe ik deze schets spannender zou kunnen maken. Mijn idee was om in de blokjes afbeeldingen of bewegende animaties van Mario te stoppen van elk jaartal. Hoe hoger je komt hoe verder je in de tijd gaat naar het nu.  
 
  <img src="readme-images/schetstoren.png" width="375px" alt="toren schets">  
   
